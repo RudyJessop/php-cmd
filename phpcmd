@@ -1,0 +1,18 @@
+#! /usr/bin/env php
+<?php
+
+use CTL\ExampleCommand;
+use Symfony\Component\Console\Application;
+
+
+require 'vendor/autoload.php';
+
+$app = new Application('PHP CMD Skeleton Tool', '1.0');
+
+$app->add(new ExampleCommand);
+
+// Want to add multiple commands?
+// $app->add(new ExampleCommandTwo);
+
+
+$app->run();

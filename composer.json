@@ -1,0 +1,20 @@
+{
+    "name": "rudyjessop/php-cmd",
+    "description": "PHP Command line program skeleton",
+    "type": "project",
+    "license": "EPL-1.0",
+    "authors": [
+        {
+            "name": "Rudy Jessop",
+            "email": "rudyjessop@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CTL\\": "src"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.1"
+    }
+}
